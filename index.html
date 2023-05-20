@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contest-Accio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="root">
+      <div class="filter-container">
+        <h1>Filter ui cards Via their profession</h1>
+        <select name="profession" id="profession">
+          <option>Profession</option>
+        </select>
+        <div id="user-container"></div>
+        <button type="submit" onclick="filterUsers()">Filter</button>
+      </div>
+      <div class="add-user-container">
+        <h1>Add a new user</h1>
+        <div class="add-user">
+          <div class="take-new-user-input">
+            <div class="text-input">
+              <label for="name">Enter name</label>
+              <input type="text" id="name" />
+            </div>
+            <div class="text-input">
+              <label for="profinput">Enter profession</label>
+              <input type="text" id="profinput" />
+            </div>
+            <div class="text-input">
+              <label for="age">Enter Age</label>
+              <input type="number" min="0" max="200" id="age" />
+            </div>
+          </div>
+        </div>
+        <button type="submit" onclick="addUser()">Add User</button>
+      </div>
+    </div>
+  </body>
+</html>

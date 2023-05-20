@@ -1,0 +1,91 @@
+body {
+  background-color: Black;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+}
+* {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+}
+.root {
+  padding: 70px;
+}
+h1 {
+  font-size: 25px;
+}
+select {
+  width: 14%;
+  height: 50px;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  font-weight: 200;
+  border: 1px solid white;
+  padding: 10px 10px;
+}
+
+.filter-container {
+  /* width: 100vw; */
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  row-gap: 40px;
+  margin-bottom: 70px;
+}
+button {
+  width: 17%;
+  height: 60px;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+#user-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  row-gap: 50px;
+}
+.eachuser {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: stretch;
+  column-gap: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.add-user-container {
+  margin-top: 120px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 30px;
+}
+.take-new-user-input {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 20px;
+  justify-content: stretch;
+  align-items: stretch;
+}
+.text-input {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 20px;
+  width: 28vw;
+  height: 20vh;
+}
+input {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+}
